@@ -1,0 +1,168 @@
+/*/ Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+.menu ul li a{
+	text-align: right;
+	padding: 0px !important;
+
+}
+/*slider start*/
+.slider{
+ padding-bottom: 70px; 
+}
+.inspire{
+	margin-top: 0px;
+}
+.inspire h1{
+	font-size:28px;
+	
+}
+.inspire h2{
+	
+	letter-spacing: 0px;
+}
+.inspire p{
+	
+	word-spacing: 0px;
+}
+.l_inline{
+	text-align: center;
+}
+.inspire .list-inline li{
+	font-size: 40px;
+	margin-right: 20px;
+}
+.carousel-indicators{
+  	bottom: -50px;
+  }
+  /*feature start*/
+.feature{
+  	padding-top: 60px;
+  	padding-bottom: 60px;
+}
+.c_title{
+  	margin-bottom: 0px;
+  }
+.c_title h1{
+  	font-size: 28px;
+  	
+}
+.c_title p{
+  	font-size: 18px;
+  	letter-spacing: 0px;
+  	word-spacing: 0px;
+}
+.s_content{
+	text-align: center;
+	margin-top: 10px;
+}
+.p_30{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*feature end*/
+/*form start*/
+.form{
+	text-align: center;
+
+}
+.btn-custom {
+    margin-top: 20px;
+    width: 100%;
+}
+.social-icon{
+    margin-top: 50px;
+  }
+  .ficon{
+    margin-left: 10px;
+  }
+/*footer start*/
+  .footer-row{
+    margin: 70px 0 20px 0 !important;
+  }
+  .text-c-only{
+    text-align: center;
+  }
+  .footer-row-column{
+    margin-bottom: 20px;
+  }
+  /*footer end*
+}
+/*/ Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.menu ul li a{
+	text-align: right;
+	padding: 0px !important;
+}
+/*slider start*/
+.inspire{
+	margin-top: 10px;
+
+}
+/*feature start*/
+.feature{
+  	padding-top: 70px;
+  	padding-bottom: 70px;
+}
+.c_title{
+  	margin-bottom: 0px;
+}
+.c_title p{
+  	letter-spacing: 0px;
+  	word-spacing: 0px;
+}
+.s_content{
+	text-align: center;
+}
+.p_30{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*feature end*/
+/*button start*/
+.btn-custom {
+    background-color: #fcdb00;
+    font-weight: 700;
+    font-size: 16px;
+    color: #010101;
+    text-transform: uppercase;
+    padding: 12px 42px;
+}
+
+}
+
+/*/ Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+
+.menu ul li a{
+	text-align: right;
+	padding: 0px !important;
+}
+/*slider start*/
+.inspire{
+	margin-top: 50px;
+}
+/*feature start*/
+.feature{
+  	padding-top: 80px;
+  	padding-bottom: 80px;
+  }
+/*feature End*/
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+/*/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+}
+
+/*/ Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+
+}
